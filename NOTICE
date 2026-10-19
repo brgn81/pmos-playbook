@@ -1,0 +1,11 @@
+pm-os-playbook
+Copyright (c) 2026 Bergen Helms
+Licensed under the MIT License, see LICENSE.
+
+This repository contains material derived from phuryn/pm-skills
+(https://github.com/phuryn/pm-skills), licensed under the MIT License.
+The copyright notice and permission notice of that project are retained
+in the files derived from it.
+
+Local changes to vendored phuryn/pm-skills content:
+- none yet
