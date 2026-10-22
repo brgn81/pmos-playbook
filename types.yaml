@@ -1,0 +1,56 @@
+types:
+  idea:
+    description: A product idea, from first capture to post-launch learning
+    icon: lightbulb
+    color: type-1
+    template: templates/idea.md
+  discovery:
+    description: A discovery page with opportunities, assumptions and experiments around one idea
+    icon: compass
+    color: type-2
+    template: templates/discovery.md
+  minute:
+    description: Minutes of a meeting or an interview, with decisions and actions
+    icon: notebook-pen
+    color: type-3
+    template: templates/minute.md
+  insight:
+    description: One finding from research, with its evidence and what it implies
+    icon: eye
+    color: type-4
+    template: templates/insight.md
+  page:
+    description: Any other page that product work refers to
+    icon: file-text
+    color: type-5
+    template: templates/page.md
+  strategy:
+    description: Vision, business model, pricing, north star and other strategy documents
+    icon: target
+    color: type-6
+    template: templates/strategy.md
+  delivery:
+    description: PRDs, user stories, OKRs, roadmaps, sprint plans and release notes
+    icon: rocket
+    color: type-7
+    template: templates/delivery.md
+  go-to-market:
+    description: Go-to-market plans, ICPs, battlecards, positioning and value propositions
+    icon: megaphone
+    color: type-8
+    template: templates/go-to-market.md
+  market-research:
+    description: Competitor profiles, personas, journeys, market sizing and segmentation
+    icon: search
+    color: type-1
+    template: templates/market-research.md
+  analytics:
+    description: Experiment analyses, cohort analyses, metrics and queries
+    icon: activity
+    color: type-2
+    template: templates/analytics.md
+  draft:
+    description: Scratch output that belongs to no other type
+    icon: pencil
+    color: type-3
+    template: templates/draft.md

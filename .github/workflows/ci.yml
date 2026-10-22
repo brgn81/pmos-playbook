@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  # The PMOS commit this Playbook is validated against. Bump it with the Playbook change that needs it.
+  PMOS_REF: 88f947fe145dc6afb7fe2693e311086dce08d72d
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Lint markdown rules
+        run: uv run scripts/lint.py
+      - name: Install PMOS
+        env:
+          PMOS_READ_TOKEN: ${{ secrets.PMOS_READ_TOKEN }}
+        run: |
+          if [ -z "$PMOS_READ_TOKEN" ]; then
+            echo "Secret PMOS_READ_TOKEN is not set (read-only token for brgn81/pmos)" >&2
+            exit 1
+          fi
+          git config --global url."https://x-access-token:${PMOS_READ_TOKEN}@github.com/".insteadOf "https://github.com/"
+          uv tool install "git+https://github.com/brgn81/pmos@${PMOS_REF}"
+      - name: Validate the Playbook
+        run: pmos playbook validate . --json
