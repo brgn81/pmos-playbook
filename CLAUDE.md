@@ -1,9 +1,9 @@
-# pm-os-playbook
+# pmos-playbook
 
 The PMOS Playbook is the PM layer of PMOS: skills, agents, rules and prompts for product
 management work, plus the PMOS types they work on. `pmos` installs it into a
-product workspace at a pinned ref. Product spec: `brgn81/pm-os` (`docs/`). PMOS contracts:
-the schemas attached to each `pm-os-footing` release.
+product workspace at a pinned ref. Product spec: `brgn81/pmos-docs` (`docs/`). PMOS contracts:
+the schemas attached to each `pmos` release.
 
 ## Repo structure
 
@@ -66,7 +66,7 @@ workspace's `.claude/`. Paths inside skills refer to that installed layout.
 ## Build and test
 
 - Install the pinned PMOS:
-  `gh release download <tag> --repo brgn81/pm-os-footing --pattern "*.whl"`, then
+  `gh release download <tag> --repo brgn81/pmos --pattern "*.whl"`, then
   `uv tool install ./pmos-*.whl`
 - `pmos playbook validate .` – schemas and CLI calls, before every commit
 - `uv run scripts/lint.py` – markdown rules: em dash, casing, fence languages, BOM
@@ -80,4 +80,4 @@ workspace's `.claude/`. Paths inside skills refer to that installed layout.
 - Version: semver in `manifest.yaml`; patch for wording, minor for new skills or types,
   major for removals or renames. Every release gets a CHANGELOG entry.
 - Vendored phuryn/pm-skills content keeps its attribution; note local changes in `NOTICE`.
-- Record decisions that change the contract in `brgn81/pm-os` `docs/decisions.md`.
+- Record decisions that change the contract in `brgn81/pmos-docs` `docs/decisions.md`.
