@@ -1,7 +1,7 @@
 # pm-os-playbook
 
-The Playbook is the PM layer of PM OS: skills, agents, rules and prompts for product
-management work, plus the PM OS types they work on. `pmos` installs it into a
+The PMOS Playbook is the PM layer of PMOS: skills, agents, rules and prompts for product
+management work, plus the PMOS types they work on. `pmos` installs it into a
 product workspace at a pinned ref. Product spec: `brgn81/pm-os` (`docs/`). PMOS contracts:
 the schemas attached to each `pm-os-footing` release.
 
@@ -9,7 +9,7 @@ the schemas attached to each `pm-os-footing` release.
 
 ```text
 manifest.yaml        name, version, requires_pmos
-types.yaml           the PM OS types: name, description, icon, color slot, template
+types.yaml           the PMOS types: name, description, icon, color slot, template
 preset/pmos.yaml  the starting configuration a new workspace gets
 playbook.md          base rules; the workspace CLAUDE.md imports it
 skills/<pack>/<skill>/SKILL.md
@@ -32,7 +32,7 @@ workspace's `.claude/`. Paths inside skills refer to that installed layout.
   A type the workspace has not mapped returns nothing: say so, do not guess a path.
 - Read only the identity frontmatter (`item_id`, `title`, `url`) and the body of an item.
   Never depend on tool-specific fields; Jira, Confluence and Notion items look different.
-- Every PM OS type a skill reads or writes is declared in `types.yaml`. A new type means
+- Every PMOS type a skill reads or writes is declared in `types.yaml`. A new type means
   `types.yaml` + `preset/pmos.yaml` + template, in one change.
 - Never write into folders of category `context`. Write only to `work` and local types.
 - Sync only through `/pull`, `/push`, `/status` or `pmos pull|push|status`. On a blocked item
