@@ -1,6 +1,6 @@
 # pm-os-playbook
 
-The Playbook is the PM layer of [PM OS](https://github.com/brgn81/pm-os): skills, agents, rules and prompts for product management work, plus the PM OS types they work on. [Footing](https://github.com/brgn81/pm-os-footing) installs it into a product workspace at a pinned ref.
+The Playbook is the PM layer of [PM OS](https://github.com/brgn81/pm-os): skills, agents, rules and prompts for product management work, plus the PM OS types they work on. [PMOS](https://github.com/brgn81/pm-os-footing) installs it into a product workspace at a pinned ref.
 
 Status: setup. Content moves here from `brgn81/pm-os-legacy` with issue P1.
 
