@@ -12,6 +12,7 @@ One change touches three files:
 
 ```text
 uv run scripts/lint.py
+uv run scripts/check_layout.py
 pmos playbook validate . --json
 ```
 
