@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 – unreleased
+## 0.1.0 – 2026-10-23
 
 - Structure: `manifest.yaml`, `types.yaml` with 12 types, neutral `preset/pmos.yaml`, item templates.
 - Base rules: `playbook.md`, `rules/markdown.md`, `rules/language.md`.
