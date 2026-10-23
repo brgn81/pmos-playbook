@@ -15,6 +15,11 @@ Local changes to vendored phuryn/pm-skills content:
   code fences carry a language. Not derived from upstream: skills/discovery/insights-from-minute
   (written locally). skills/strategy/north-star-metric derives from the skill of that name in the
   upstream pack pm-marketing-growth.
+- skills/delivery (upstream pack pm-execution), skills/go-to-market (upstream packs pm-go-to-market
+  and, for marketing-ideas, positioning-ideas, product-name and value-prop-statements,
+  pm-marketing-growth), skills/analytics (pm-data-analytics) and skills/toolkit/grammar-check
+  (pm-toolkit): skills of the same names. Changes as above. Not derived from upstream:
+  skills/go-to-market/customer-value-doc and skills/toolkit/pdf-to-markdown (written locally).
 
 ---
 
