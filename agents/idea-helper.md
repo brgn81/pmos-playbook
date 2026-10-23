@@ -83,8 +83,8 @@ Hints are instructions for you, never idea content. Never copy them into an answ
 
 ## Related skills
 
-- Idea brainstorming (existing product): `.claude/skills/pm-product-discovery/brainstorm-ideas-existing/SKILL.md`
-- Idea brainstorming (new product): `.claude/skills/pm-product-discovery/brainstorm-ideas-new/SKILL.md`
-- Feature request analysis: `.claude/skills/pm-product-discovery/analyze-feature-requests/SKILL.md`
-- Lean canvas: `.claude/skills/pm-product-strategy/lean-canvas/SKILL.md`
-- Value proposition design: `.claude/skills/pm-product-strategy/value-proposition/SKILL.md`
+- Idea brainstorming (existing product): `.claude/skills/discovery/brainstorm-ideas-existing/SKILL.md`
+- Idea brainstorming (new product): `.claude/skills/discovery/brainstorm-ideas-new/SKILL.md`
+- Feature request analysis: `.claude/skills/discovery/analyze-feature-requests/SKILL.md`
+- Lean canvas: `.claude/skills/strategy/lean-canvas/SKILL.md`
+- Value proposition design: `.claude/skills/strategy/value-proposition/SKILL.md`

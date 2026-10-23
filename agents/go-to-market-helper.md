@@ -38,14 +38,14 @@ Help the user build a coherent go-to-market plan and competitive positioning for
 
 | Task | Skill |
 | --- | --- |
-| Build a GTM strategy | `.claude/skills/pm-go-to-market/gtm-strategy/SKILL.md` |
-| Define GTM motions | `.claude/skills/pm-go-to-market/gtm-motions/SKILL.md` |
-| Define an ideal customer profile | `.claude/skills/pm-go-to-market/ideal-customer-profile/SKILL.md` |
-| Identify a beachhead segment | `.claude/skills/pm-go-to-market/beachhead-segment/SKILL.md` |
-| Create a competitive battlecard | `.claude/skills/pm-go-to-market/competitive-battlecard/SKILL.md` |
-| Design growth loops | `.claude/skills/pm-go-to-market/growth-loops/SKILL.md` |
-| Map customer value | `.claude/skills/pm-go-to-market/customer-value-doc/SKILL.md` |
-| Develop positioning | `.claude/skills/pm-go-to-market/positioning-ideas/SKILL.md` |
-| Generate product name ideas | `.claude/skills/pm-go-to-market/product-name/SKILL.md` |
-| Write value proposition statements | `.claude/skills/pm-go-to-market/value-prop-statements/SKILL.md` |
-| Brainstorm marketing ideas | `.claude/skills/pm-go-to-market/marketing-ideas/SKILL.md` |
+| Build a GTM strategy | `.claude/skills/go-to-market/gtm-strategy/SKILL.md` |
+| Define GTM motions | `.claude/skills/go-to-market/gtm-motions/SKILL.md` |
+| Define an ideal customer profile | `.claude/skills/go-to-market/ideal-customer-profile/SKILL.md` |
+| Identify a beachhead segment | `.claude/skills/go-to-market/beachhead-segment/SKILL.md` |
+| Create a competitive battlecard | `.claude/skills/go-to-market/competitive-battlecard/SKILL.md` |
+| Design growth loops | `.claude/skills/go-to-market/growth-loops/SKILL.md` |
+| Map customer value | `.claude/skills/go-to-market/customer-value-doc/SKILL.md` |
+| Develop positioning | `.claude/skills/go-to-market/positioning-ideas/SKILL.md` |
+| Generate product name ideas | `.claude/skills/go-to-market/product-name/SKILL.md` |
+| Write value proposition statements | `.claude/skills/go-to-market/value-prop-statements/SKILL.md` |
+| Brainstorm marketing ideas | `.claude/skills/go-to-market/marketing-ideas/SKILL.md` |

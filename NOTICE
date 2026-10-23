@@ -8,7 +8,13 @@ The copyright notice and permission notice of that project are retained
 in the files derived from it.
 
 Local changes to vendored phuryn/pm-skills content:
-- none yet
+- skills/discovery, skills/strategy, skills/market-research: skills of the same names in the
+  upstream packs pm-product-discovery, pm-product-strategy and pm-market-research.
+  Changes: headings in sentence case, en dash instead of em dash, the $ARGUMENTS
+  placeholder replaced by "the product the user describes in the conversation",
+  code fences carry a language. Not derived from upstream: skills/discovery/insights-from-minute
+  (written locally). skills/strategy/north-star-metric derives from the skill of that name in the
+  upstream pack pm-marketing-growth.
 
 ---
 

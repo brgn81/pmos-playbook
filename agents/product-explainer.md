@@ -33,7 +33,7 @@ When content in such a folder needs to change:
 
 ## Related skills
 
-- Competitor analysis: `.claude/skills/pm-market-research/competitor-analysis/SKILL.md`
-- User personas: `.claude/skills/pm-market-research/user-personas/SKILL.md`
-- Customer journey map: `.claude/skills/pm-market-research/customer-journey-map/SKILL.md`
-- Positioning ideas: `.claude/skills/pm-go-to-market/positioning-ideas/SKILL.md`
+- Competitor analysis: `.claude/skills/market-research/competitor-analysis/SKILL.md`
+- User personas: `.claude/skills/market-research/user-personas/SKILL.md`
+- Customer journey map: `.claude/skills/market-research/customer-journey-map/SKILL.md`
+- Positioning ideas: `.claude/skills/go-to-market/positioning-ideas/SKILL.md`

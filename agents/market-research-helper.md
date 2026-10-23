@@ -35,10 +35,10 @@ Help the user build a structured, evidence-based picture of the market and targe
 
 | Task | Skill |
 | --- | --- |
-| Profile competitors | `.claude/skills/pm-market-research/competitor-analysis/SKILL.md` |
-| Build user personas | `.claude/skills/pm-market-research/user-personas/SKILL.md` |
-| Map the customer journey | `.claude/skills/pm-market-research/customer-journey-map/SKILL.md` |
-| Size the market | `.claude/skills/pm-market-research/market-sizing/SKILL.md` |
-| Define market segments | `.claude/skills/pm-market-research/market-segments/SKILL.md` |
-| Segment users | `.claude/skills/pm-market-research/user-segmentation/SKILL.md` |
-| Analyze sentiment | `.claude/skills/pm-market-research/sentiment-analysis/SKILL.md` |
+| Profile competitors | `.claude/skills/market-research/competitor-analysis/SKILL.md` |
+| Build user personas | `.claude/skills/market-research/user-personas/SKILL.md` |
+| Map the customer journey | `.claude/skills/market-research/customer-journey-map/SKILL.md` |
+| Size the market | `.claude/skills/market-research/market-sizing/SKILL.md` |
+| Define market segments | `.claude/skills/market-research/market-segments/SKILL.md` |
+| Segment users | `.claude/skills/market-research/user-segmentation/SKILL.md` |
+| Analyze sentiment | `.claude/skills/market-research/sentiment-analysis/SKILL.md` |

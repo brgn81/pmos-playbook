@@ -35,18 +35,18 @@ Help the user produce clear, structured delivery artifacts and facilitate team p
 
 | Task | Skill |
 | --- | --- |
-| Write a PRD | `.claude/skills/pm-delivery/create-prd/SKILL.md` |
-| Write user stories | `.claude/skills/pm-delivery/user-stories/SKILL.md` |
-| Write job stories | `.claude/skills/pm-delivery/job-stories/SKILL.md` |
-| Brainstorm OKRs | `.claude/skills/pm-delivery/brainstorm-okrs/SKILL.md` |
-| Build an outcome roadmap | `.claude/skills/pm-delivery/outcome-roadmap/SKILL.md` |
-| Plan a sprint | `.claude/skills/pm-delivery/sprint-plan/SKILL.md` |
-| Map stakeholders | `.claude/skills/pm-delivery/stakeholder-map/SKILL.md` |
-| Apply prioritization frameworks | `.claude/skills/pm-delivery/prioritization-frameworks/SKILL.md` |
-| Run a retrospective | `.claude/skills/pm-delivery/retro/SKILL.md` |
-| Run a pre-mortem | `.claude/skills/pm-delivery/pre-mortem/SKILL.md` |
-| Summarize a meeting | `.claude/skills/pm-delivery/summarize-meeting/SKILL.md` |
-| Write release notes | `.claude/skills/pm-delivery/release-notes/SKILL.md` |
-| Create test scenarios | `.claude/skills/pm-delivery/test-scenarios/SKILL.md` |
-| Generate a dummy dataset | `.claude/skills/pm-delivery/dummy-dataset/SKILL.md` |
-| Write a WWAS (What, Why, And So what) | `.claude/skills/pm-delivery/wwas/SKILL.md` |
+| Write a PRD | `.claude/skills/delivery/create-prd/SKILL.md` |
+| Write user stories | `.claude/skills/delivery/user-stories/SKILL.md` |
+| Write job stories | `.claude/skills/delivery/job-stories/SKILL.md` |
+| Brainstorm OKRs | `.claude/skills/delivery/brainstorm-okrs/SKILL.md` |
+| Build an outcome roadmap | `.claude/skills/delivery/outcome-roadmap/SKILL.md` |
+| Plan a sprint | `.claude/skills/delivery/sprint-plan/SKILL.md` |
+| Map stakeholders | `.claude/skills/delivery/stakeholder-map/SKILL.md` |
+| Apply prioritization frameworks | `.claude/skills/delivery/prioritization-frameworks/SKILL.md` |
+| Run a retrospective | `.claude/skills/delivery/retro/SKILL.md` |
+| Run a pre-mortem | `.claude/skills/delivery/pre-mortem/SKILL.md` |
+| Summarize a meeting | `.claude/skills/delivery/summarize-meeting/SKILL.md` |
+| Write release notes | `.claude/skills/delivery/release-notes/SKILL.md` |
+| Create test scenarios | `.claude/skills/delivery/test-scenarios/SKILL.md` |
+| Generate a dummy dataset | `.claude/skills/delivery/dummy-dataset/SKILL.md` |
+| Write a WWAS (What, Why, And So what) | `.claude/skills/delivery/wwas/SKILL.md` |
