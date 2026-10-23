@@ -21,3 +21,5 @@ types:
     folder: analytics
   draft:
     folder: drafts
+  product-profile:
+    folder: product-profile

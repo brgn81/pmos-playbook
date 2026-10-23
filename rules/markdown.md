@@ -1,3 +1,8 @@
+---
+applyTo: "**/*.md"
+description: "Common markdown authoring rules"
+---
+
 # Markdown authoring rules
 
 ## Headings

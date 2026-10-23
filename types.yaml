@@ -54,3 +54,8 @@ types:
     icon: pencil
     color: type-3
     template: templates/draft.md
+  product-profile:
+    description: Base knowledge about the product – what it is, for whom, vision, key terms
+    icon: book-open
+    color: type-4
+    template: templates/product-profile.md

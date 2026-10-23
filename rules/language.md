@@ -1,3 +1,8 @@
+---
+applyTo: "**"
+description: "Always respond in English"
+---
+
 # Language rule
 
 Always respond in English, regardless of the language the user writes in.
