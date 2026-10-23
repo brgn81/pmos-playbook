@@ -12,12 +12,16 @@ from pathlib import Path
 EM_DASH = "—"
 BOM = "﻿"
 SKIP_DIRS = {".git", ".venv", "node_modules"}
+# Proper nouns that keep their capitals inside a heading.
+PROPER = ("Porter's Five Forces", "Ansoff Matrix")
 FENCE = re.compile(r"^(\s*)(`{3,}|~{3,})(.*)$")
 HEADING = re.compile(r"^#{1,6}\s+(.*?)\s*#*\s*$")
 
 
 def title_case(text: str) -> bool:
     """True when three or more plain words all start with a capital: 'Output Deliverables Here'."""
+    for name in PROPER:
+        text = text.replace(name, "")
     words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]*", text) if not w.isupper()]
     return len(words) >= 3 and all(w[0].isupper() for w in words)
 

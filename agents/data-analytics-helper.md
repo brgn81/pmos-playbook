@@ -34,6 +34,6 @@ Help the user make sense of product data, design rigorous experiments, and extra
 
 | Task | Skill |
 | --- | --- |
-| Design and analyze an A/B test | `.claude/skills/pm-data-analytics/ab-test-analysis/SKILL.md` |
-| Build a cohort analysis | `.claude/skills/pm-data-analytics/cohort-analysis/SKILL.md` |
-| Write SQL queries for product analytics | `.claude/skills/pm-data-analytics/sql-queries/SKILL.md` |
+| Design and analyze an A/B test | `.claude/skills/analytics/ab-test-analysis/SKILL.md` |
+| Build a cohort analysis | `.claude/skills/analytics/cohort-analysis/SKILL.md` |
+| Write SQL queries for product analytics | `.claude/skills/analytics/sql-queries/SKILL.md` |

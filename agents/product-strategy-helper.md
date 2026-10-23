@@ -35,16 +35,16 @@ Guide the user through strategic product thinking using established frameworks. 
 
 | Task | Skill |
 | --- | --- |
-| Define product vision | `.claude/skills/pm-product-strategy/product-vision/SKILL.md` |
-| Build a product strategy | `.claude/skills/pm-product-strategy/product-strategy/SKILL.md` |
-| Design a business model | `.claude/skills/pm-product-strategy/business-model/SKILL.md` |
-| Create a lean canvas | `.claude/skills/pm-product-strategy/lean-canvas/SKILL.md` |
-| Create a startup canvas | `.claude/skills/pm-product-strategy/startup-canvas/SKILL.md` |
-| Define a value proposition | `.claude/skills/pm-product-strategy/value-proposition/SKILL.md` |
-| Design a monetization strategy | `.claude/skills/pm-product-strategy/monetization-strategy/SKILL.md` |
-| Design a pricing strategy | `.claude/skills/pm-product-strategy/pricing-strategy/SKILL.md` |
-| Run a SWOT analysis | `.claude/skills/pm-product-strategy/swot-analysis/SKILL.md` |
-| Run a PESTLE analysis | `.claude/skills/pm-product-strategy/pestle-analysis/SKILL.md` |
-| Apply Porter's Five Forces | `.claude/skills/pm-product-strategy/porters-five-forces/SKILL.md` |
-| Apply the Ansoff Matrix | `.claude/skills/pm-product-strategy/ansoff-matrix/SKILL.md` |
-| Define the north star metric | `.claude/skills/pm-product-strategy/north-star-metric/SKILL.md` |
+| Define product vision | `.claude/skills/strategy/product-vision/SKILL.md` |
+| Build a product strategy | `.claude/skills/strategy/product-strategy/SKILL.md` |
+| Design a business model | `.claude/skills/strategy/business-model/SKILL.md` |
+| Create a lean canvas | `.claude/skills/strategy/lean-canvas/SKILL.md` |
+| Create a startup canvas | `.claude/skills/strategy/startup-canvas/SKILL.md` |
+| Define a value proposition | `.claude/skills/strategy/value-proposition/SKILL.md` |
+| Design a monetization strategy | `.claude/skills/strategy/monetization-strategy/SKILL.md` |
+| Design a pricing strategy | `.claude/skills/strategy/pricing-strategy/SKILL.md` |
+| Run a SWOT analysis | `.claude/skills/strategy/swot-analysis/SKILL.md` |
+| Run a PESTLE analysis | `.claude/skills/strategy/pestle-analysis/SKILL.md` |
+| Apply Porter's Five Forces | `.claude/skills/strategy/porters-five-forces/SKILL.md` |
+| Apply the Ansoff Matrix | `.claude/skills/strategy/ansoff-matrix/SKILL.md` |
+| Define the north star metric | `.claude/skills/strategy/north-star-metric/SKILL.md` |

@@ -19,19 +19,19 @@ Guides product discovery from fuzzy problem space to testable hypotheses. Handle
 
 | Task | Skill |
 | --- | --- |
-| Brainstorm ideas for existing product | `.claude/skills/pm-product-discovery/brainstorm-ideas-existing/SKILL.md` |
-| Brainstorm ideas for new product | `.claude/skills/pm-product-discovery/brainstorm-ideas-new/SKILL.md` |
-| Analyze feature requests | `.claude/skills/pm-product-discovery/analyze-feature-requests/SKILL.md` |
-| Map the opportunity solution tree | `.claude/skills/pm-product-discovery/opportunity-solution-tree/SKILL.md` |
-| Create an interview script | `.claude/skills/pm-product-discovery/interview-script/SKILL.md` |
-| Summarize an interview | `.claude/skills/pm-product-discovery/summarize-interview/SKILL.md` |
-| Identify assumptions (existing product) | `.claude/skills/pm-product-discovery/identify-assumptions-existing/SKILL.md` |
-| Identify assumptions (new product) | `.claude/skills/pm-product-discovery/identify-assumptions-new/SKILL.md` |
-| Prioritize assumptions | `.claude/skills/pm-product-discovery/prioritize-assumptions/SKILL.md` |
-| Brainstorm experiments (existing product) | `.claude/skills/pm-product-discovery/brainstorm-experiments-existing/SKILL.md` |
-| Brainstorm experiments (new product) | `.claude/skills/pm-product-discovery/brainstorm-experiments-new/SKILL.md` |
-| Prioritize features | `.claude/skills/pm-product-discovery/prioritize-features/SKILL.md` |
-| Design a metrics dashboard | `.claude/skills/pm-product-discovery/metrics-dashboard/SKILL.md` |
+| Brainstorm ideas for existing product | `.claude/skills/discovery/brainstorm-ideas-existing/SKILL.md` |
+| Brainstorm ideas for new product | `.claude/skills/discovery/brainstorm-ideas-new/SKILL.md` |
+| Analyze feature requests | `.claude/skills/discovery/analyze-feature-requests/SKILL.md` |
+| Map the opportunity solution tree | `.claude/skills/discovery/opportunity-solution-tree/SKILL.md` |
+| Create an interview script | `.claude/skills/discovery/interview-script/SKILL.md` |
+| Summarize an interview | `.claude/skills/discovery/summarize-interview/SKILL.md` |
+| Identify assumptions (existing product) | `.claude/skills/discovery/identify-assumptions-existing/SKILL.md` |
+| Identify assumptions (new product) | `.claude/skills/discovery/identify-assumptions-new/SKILL.md` |
+| Prioritize assumptions | `.claude/skills/discovery/prioritize-assumptions/SKILL.md` |
+| Brainstorm experiments (existing product) | `.claude/skills/discovery/brainstorm-experiments-existing/SKILL.md` |
+| Brainstorm experiments (new product) | `.claude/skills/discovery/brainstorm-experiments-new/SKILL.md` |
+| Prioritize features | `.claude/skills/discovery/prioritize-features/SKILL.md` |
+| Design a metrics dashboard | `.claude/skills/discovery/metrics-dashboard/SKILL.md` |
 
 ## Where things live
 
