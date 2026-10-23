@@ -1,0 +1,23 @@
+types:
+  idea:
+    folder: discovery/ideas
+  discovery:
+    folder: discovery/discoveries
+  minute:
+    folder: discovery/minutes
+  insight:
+    folder: discovery/insights
+  page:
+    folder: reference/pages
+  strategy:
+    folder: strategy
+  delivery:
+    folder: delivery
+  go-to-market:
+    folder: go-to-market
+  market-research:
+    folder: market-research
+  analytics:
+    folder: analytics
+  draft:
+    folder: drafts
