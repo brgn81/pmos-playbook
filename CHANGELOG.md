@@ -13,3 +13,4 @@
 - CI runs the tests of the `pdf-to-markdown` script.
 - Commands: 38 workflow commands (`commands/<name>.md`). Sync is not a Playbook command: PMOS generates `/pull`, `/push` and `/status`. The idea workflow (`start-idea`, `fill-idea`) and `discover`, `impact-map`, `risk-assessment` and `insights-from-minute` work on any tool and resolve folders with `pmos where`.
 - Template `idea-small` for ideas that need no assumptions work.
+- `scripts/check_layout.py` checks names, descriptions and every reference between files (skills, rules, links, agents, slash commands); CI runs it.

@@ -20,6 +20,8 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - name: Lint markdown rules
         run: uv run scripts/lint.py
+      - name: Check the layout
+        run: uv run scripts/check_layout.py
       - name: Test the skill scripts
         run: uv run --with pytest --with reportlab --with "pypdf>=5.0" --with "pdfplumber>=0.11" python -m pytest skills/toolkit/pdf-to-markdown/tests -q
       - name: Install PMOS

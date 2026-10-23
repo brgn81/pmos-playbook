@@ -49,7 +49,7 @@ and an instruction to run the command above - it never partially degrades.
 uv run .claude/skills/toolkit/pdf-to-markdown/scripts/pdf_to_markdown.py path/to/document.pdf
 ```
 
-The paired command is [`/pdf-to-md`](../../../commands/pdf-to-md.prompt.md):
+The paired command is [`/pdf-to-md`](../../../commands/pdf-to-md.md):
 
 ```text
 /pdf-to-md path/to/document.pdf
