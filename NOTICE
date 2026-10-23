@@ -20,6 +20,11 @@ Local changes to vendored phuryn/pm-skills content:
   pm-marketing-growth), skills/analytics (pm-data-analytics) and skills/toolkit/grammar-check
   (pm-toolkit): skills of the same names. Changes as above. Not derived from upstream:
   skills/go-to-market/customer-value-doc and skills/toolkit/pdf-to-markdown (written locally).
+- commands/: 32 of the 38 commands derive from the commands of the same names in the upstream
+  packs (pm-execution, pm-product-discovery, pm-product-strategy, pm-market-research,
+  pm-go-to-market, pm-toolkit). Changes as above; commands/discover.md was additionally reworked
+  (no issue tracker steps, folders from pmos where). Not derived from upstream: fill-idea,
+  impact-map, insights-from-minute, pdf-to-md, risk-assessment and start-idea (written locally).
 
 ---
 
