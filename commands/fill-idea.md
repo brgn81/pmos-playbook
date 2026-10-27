@@ -24,7 +24,7 @@ An idea file must already exist in the folder of `pmos where --pmos-type idea --
 
 ### Step 1: Load the idea file
 
-1. Read the item reference (from the invocation, or ask): an issue key, a page id, a URL or a title, depending on the configured tool. Never validate its format.
+1. Read the item reference (from the invocation, or ask): an issue key, a page id, a URL or a title, depending on the configured platform. Never validate its format.
 2. Find the idea file in the folder of `pmos where --pmos-type idea --json` by `item_id` or title. If the folder is read-only (`writable` is false in `pmos types --json`), stop: the idea cannot be written here.
 3. Read the file.
 4. Identify the current position (first section with placeholder content or where user left off)

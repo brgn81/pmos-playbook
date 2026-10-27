@@ -182,14 +182,14 @@ Before diving into the problem space, offer to anchor this discovery to an idea 
 
 **If (a) – create new:**
 - Resolve the folder with `pmos where --pmos-type idea --json`. A type that is not mapped returns nothing: say so and keep the outputs in the folder of `pmos where --pmos-type draft --json` instead.
-- If the idea type is synced from a tool (`tool` is not empty in `pmos types --json`), the item belongs to that tool: ask the user to create it there, then pull it with `pmos pull <type> <reference> --json`, where `<type>` is the `type` of the `pmos where` result. If that folder is read-only (`writable` is false), never write into it.
+- If the idea type is synced from a platform (`platform` is not empty in `pmos types --json`), the item belongs to that platform: ask the user to create it there, then pull it with `pmos pull <type> <reference> --json`, where `<type>` is the `type` of the `pmos where` result. If that folder is read-only (`writable` is false), never write into it.
 - Otherwise scaffold a new idea file in that folder from the idea template of the Playbook, with the title from Phase 1.
 - Leave all content sections as blank placeholders – do not invent content.
 - Confirm: "Idea file created at `<path>`. All discovery outputs will be merged into it."
 - Continue to Phase 2
 
 **If (b) – link existing:**
-- Ask for the reference (whatever the idea's tool accepts; never validate its format) or the title
+- Ask for the reference (whatever the idea's platform accepts; never validate its format) or the title
 - Look for a file with that `item_id` or title in the idea folder
   - If yes: confirm the file and proceed; merge discovery outputs into it during Phase 6
   - If no: pull it with `pmos pull <type> <reference> --json`
@@ -407,7 +407,7 @@ The user names the idea (a reference or its title), or selects option (c) at the
   - Resolve the folder with `pmos where --pmos-type discovery --json` and look for the page there by `item_id`
   - If it is not there: `pmos pull <type> <reference> --json`, with the `type` of that `pmos where` result
 - **If no discovery page is linked:**
-  - Stop and inform: "This idea has no linked discovery page. Detailed assumption and experiment work requires a discovery page. Please create one from the discovery template in your discovery tool and link it in the idea."
+  - Stop and inform: "This idea has no linked discovery page. Detailed assumption and experiment work requires a discovery page. Please create one from the discovery template in your discovery platform and link it in the idea."
   - Do not proceed with assumption drafting until the discovery page is linked and pulled locally
 
 ---
@@ -519,7 +519,7 @@ If yes: "Which assumption should we focus on?" → prioritize **Experiment** qua
 
 3. **Record the experiment:**
    - Add it to the experiments section of the discovery page, using the experiment template above, with a reference to the assumption it tests
-   - PMOS does not create items in a remote tool. If the user wants a ticket for it, they create it there and you add its link to the experiment
+   - PMOS does not create items on a remote platform. If the user wants a ticket for it, they create it there and you add its link to the experiment
 
 ---
 

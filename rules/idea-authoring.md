@@ -22,7 +22,7 @@ description: "Guidance for creating and refining idea items"
 - If one is linked, use it as the source of truth for detailed assumptions and make sure it exists locally in the folder of `pmos where --pmos-type discovery --json` before editing.
 - Keep the assumptions section of the idea condensed and numbered (`Assumption N: short title`).
 - If none is linked, stop drafting assumptions and ask the user to create a discovery page from the discovery template and link it.
-- Do not name a tool when asking. Say "your discovery tool".
+- Do not name a platform when asking. Say "your discovery platform".
 
 ## Structure and quality
 
