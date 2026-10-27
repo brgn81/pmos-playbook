@@ -18,7 +18,7 @@ Initialize a working session on a product idea. Handles item lookup, sync confli
 
 ### Step 1: Get the item reference
 
-An idea lives in whichever tool the type `idea` is configured for, so the reference format follows that tool: an issue key, a page id, a URL, or a title. Accept whatever the user gives.
+An idea lives on whichever platform the type `idea` is configured for, so the reference format follows that platform: an issue key, a page id, a URL, or a title. Accept whatever the user gives.
 
 If nothing was given in the invocation, ask: "Which idea should we work on? (reference or title)"
 

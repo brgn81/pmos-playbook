@@ -10,7 +10,7 @@ permissions:
 
 env:
   # The PMOS commit this Playbook is validated against. Bump it with the Playbook change that needs it.
-  PMOS_REF: 88f947fe145dc6afb7fe2693e311086dce08d72d
+  PMOS_REF: 72ed3697d42b792797732138b0d263874af6a4b9
 
 jobs:
   check:
