@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 – 2026-11-20
+
+- Skill `toolkit/create-issue` and command `/create-issue`: file a GitHub issue through the GitHub MCP tools with a duplicate check, severity and a `contract` hint. Ported from the legacy `/create-pm-os-issue`; the target repository is asked, not hardcoded.
+
 ## 0.1.0 – 2026-10-23
 
 - Structure: `manifest.yaml`, `types.yaml` with 12 types, neutral `preset/pmos.yaml`, item templates.
